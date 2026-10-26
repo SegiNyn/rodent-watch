@@ -1,0 +1,1 @@
+"""Local video detection prototype."""

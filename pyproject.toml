@@ -1,0 +1,25 @@
+[project]
+name = "rodent-watch"
+version = "0.1.0"
+description = "Local, experimental rodent detection in prerecorded video"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "torch==2.8.0",
+  "torchvision==0.23.0",
+  "transformers==4.57.1",
+  "opencv-python-headless==4.12.0.88",
+  "Pillow>=11.3,<12",
+]
+
+[project.scripts]
+rodent-watch = "rodent_watch.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["rodent_watch*"]
+
+[tool.setuptools.package-data]
+rodent_watch = ["web/*.html"]
