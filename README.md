@@ -6,6 +6,8 @@ You can use it from Terminal or a local browser interface with a live preview, c
 
 Video analysis runs locally. The app saves alert pictures and detection logs, not continuous video. Repeated alerts for the same sighting are suppressed. Phone notifications are not implemented. Detection is experimental: false positives and missed animals are possible.
 
+![Rodent Watch browser interface with live preview, monitoring controls and recent sightings](docs/images/rodent-watch-ui.png)
+
 ## Install
 
 ### Requirements
